@@ -97,6 +97,17 @@ cursor: pointer;
       .available{
           font-size: 14px;
       }
+      .see-more{
+        margin-left: 120px;
+        padding-left: 50px;
+        padding-top: 50px;
+        
+      }
+      .see-more a{
+          color: #E02C6D;
+          text-decoration: none;
+          
+      }
       /* --------------
       My exploring design
       --------------------- */
@@ -116,3 +127,25 @@ cursor: pointer;
         transform: rotate(380deg) scale(0.7);
         transition: transform 2.5s ease-in-out;
         overflow: hidden;
+     }
+     .foot-element{
+         background-color: #0A0826;
+         color: whitesmoke;
+         text-align: center;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         margin-bottom: 30px;
+     }
+     .foot-element h3{
+         font-size: 24px;
+     }
+     
+     .foot-icon{
+         font-size: 25px;
+     }
+        
+     
+
+
+
+    
