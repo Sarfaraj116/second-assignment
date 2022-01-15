@@ -7,7 +7,7 @@ header h3{
     margin-left: 120px;
     margin-bottom: 100px;
 }
-section{
+.first-journey{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 80px;
@@ -97,3 +97,22 @@ cursor: pointer;
       .available{
           font-size: 14px;
       }
+      /* --------------
+      My exploring design
+      --------------------- */
+      .exploring-things{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          align-items: center;
+          margin-bottom: 80px;
+      }
+      .macbook-pro img{
+          width: 450px;
+          height: 450px;
+          margin-left: 120px;
+          cursor: pointer;
+      }
+      .macbook-pro:hover img{
+        transform: rotate(380deg) scale(0.7);
+        transition: transform 2.5s ease-in-out;
+        overflow: hidden;
