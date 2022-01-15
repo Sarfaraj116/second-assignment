@@ -1,0 +1,56 @@
+/*----fonts--- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header h3{
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+    
+}
+.journey{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.journey p{
+    margin-left: 124px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.title{
+    font-size: 52px;
+    margin-left: 120px;
+}
+.aero{
+    margin-left: 15px;
+}
+.button{
+background-color: #E02C6D;
+border-radius: 41px;
+width: 170px;
+height: 44px;
+margin-right: 230px;
+color: white;
+border: none;
+cursor: pointer;
+}
+.camera:hover img{
+    transform: rotate(180deg) scale(0.7);
+    transition: transform 2.5s ease-in-out;
+    overflow: hidden;
+}
+.camera img{
+    width: 440px;
+    height: 414px;
+    left: 816px;
+    top: 212px;
+    background-image: url(../images/Circle\ design.svg);
+    cursor: pointer;
+}
