@@ -1,5 +1,6 @@
 /*----fonts--- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -41,7 +42,7 @@ background-color: #E02C6D;
 border-radius: 41px;
 width: 170px;
 height: 44px;
-margin-right: 230px;
+margin-right: 195px;
 color: white;
 border: none;
 cursor: pointer;
@@ -58,6 +59,11 @@ cursor: pointer;
     top: 212px;
     background-image: url(../images/Circle\ design.svg);
     cursor: pointer;
+}
+hr{
+     border: 1px solid black;
+     width: 80%;
+     margin-top: 60px;
 }
 /* ---------------
      collection design
@@ -82,7 +88,7 @@ cursor: pointer;
         width: 329px;
         height: 476px;
           background-color: #FFFFFF;
-          box-shadow: 0px 0px 20px;
+          box-shadow: 0px 0px 10px;
           border-radius: 5px;
           padding-left: 10px;
       }
@@ -123,10 +129,11 @@ cursor: pointer;
           margin-bottom: 80px;
       }
       .macbook-pro img{
-          width: 450px;
-          height: 450px;
+          width: 400px;
+          height: 400px;
           margin-left: 120px;
           cursor: pointer;
+          
       }
       .macbook-pro:hover img{
         transform: rotate(380deg) scale(0.7);
@@ -148,6 +155,67 @@ cursor: pointer;
      .foot-icon{
          font-size: 25px;
      }
+
+     /* --------------------
+     -----making responsive--------
+     ------------------- */
+     /* Mobile */
+     @media only screen and (max-width:688px){
+       
+        .first-journey{
+            grid-template-columns: repeat(1, 1fr);
+            align-items: center;
+            width: 100%;
+           
+        }
+        .journey{
+            margin-right: 100px;
+        }
+        
+        .camera img{
+            width: 250px;
+            height: 200px;
+            margin-left: 100px;
+        }
+        .collections{
+            grid-template-columns: repeat(1, 1fr);
+            align-items: center;
+            width: 100%;
+            margin-left: 80px;
+        }
+        .collection{
+            margin-left: 40px;
+        }
+        .exploring-things{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .macbook-pro img{
+            width: 200px;
+            height: 200px;
+        }
+
+     }
+     /* My Tablet device */
+
+     @media only screen and (min-width:688px) and (max-width:992px) {
+         header h3{
+            color: tomato;
+         }
+         body{
+             width: 100%;
+         }
+         .collections{
+            grid-template-columns: repeat(2, 1fr);
+     }
+     .exploring-things{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+
+    }
+    .button{
+        margin-left: 100px;
+    }
+}
         
      
 
